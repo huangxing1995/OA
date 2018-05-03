@@ -1,0 +1,35 @@
+{
+  "name": "OfficeAuto",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "geolocation": "^0.2.0",
+    "react": "16.2.0",
+    "react-eflow": "^1.2.8",
+    "react-native": "0.53.0",
+    "react-native-calendars": "^1.17.7",
+    "react-native-lahk-marquee-label": "^1.1.4",
+    "react-native-lahk-marquee-label-vertical": "^1.1.1",
+    "react-native-modal": "^5.3.0",
+    "react-native-modal-datetime-picker": "^4.13.0",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "react-native-storage": "^0.2.2",
+    "react-native-swiper": "^1.5.13",
+    "react-native-timeline-listview": "^0.2.3",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.0.0-beta.19"
+  },
+  "devDependencies": {
+    "babel-jest": "22.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.2.1",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
